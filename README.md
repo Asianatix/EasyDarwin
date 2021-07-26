@@ -1,52 +1,51 @@
-# EasyDarwin开源流媒体服务器
+# EasyDarwin
+
+## Main features
+
+- Development and maintenance based on Golang;
+
+- Support Windows, Linux, macOS platforms;
+
+- Support RTSP push streaming distribution (push mode forwarding);
+
+- Support RTSP pull streaming distribution (pull mode forwarding);
+
+- Server video reference :https://blog.csdn.net/jyt0551/article/details/84189498
+
+- Server video retrieval and playback reference :https://blog.csdn.net/jyt0551/article/details/84189498
+
+- Key frame buffer;
+
+- Seconds to open the screen;
+
+- Web Admin Panel Management;
+
+- Distributed load balancing;
 
 
-## 主要功能特点
+## Installation and deployment
 
-- 基于Golang开发维护；
+- [Download and unzip the release package](https://github.com/EasyDarwin/EasyDarwin/releases)
 
-- 支持Windows、Linux、macOS平台；
-
-- 支持RTSP推流分发（推模式转发）；
-
-- 支持RTSP拉流分发（拉模式转发）；
-
-- 服务端录像 参考:https://blog.csdn.net/jyt0551/article/details/84189498
-
-- 服务端录像检索与回放 参考:https://blog.csdn.net/jyt0551/article/details/84189498
-
-- 关键帧缓存；
-
-- 秒开画面；
-
-- Web后台管理；
-
-- 分布式负载均衡；
-
-
-## 安装部署
-
-- [下载解压 release 包](https://github.com/EasyDarwin/EasyDarwin/releases)
-
-- 直接运行(Windows)
+- Run directly (Windows)
 
     EasyDarwin.exe
     
-    以 `Ctrl + C` 停止服务
+    Stop the service with `Ctrl + C`
 
-- 以服务启动(Windows)
+- Start as a service (Windows)
 
     ServiceInstall-EasyDarwin.exe
     
-    以 ServiceUninstall-EasyDarwin.exe 卸载 EasyDarwin 服务
+    Uninstall EasyDarwin service with ServiceUninstall-EasyDarwin.exe
 
-- 直接运行(Linux/macOS)
+- Run directly (Linux/macOS)
 
 		cd EasyDarwin
 		./easydarwin
 		# Ctrl + C
 
-- 以服务启动(Linux/macOS)
+- Start as a service (Linux/macOS)
 
 		cd EasyDarwin
 		./start.sh
@@ -117,11 +116,11 @@
 
         npm run build:lin       
 
-- 清理编译文件 Clean
+- Clean up compiled files
 
         npm run clean 
 
-- 打包 Pack
+- Pack
 
         # install pack
         npm i -g @penggy/pack
@@ -138,18 +137,16 @@
         pack clean
 
 
-## 技术支持
+## Technical Support
 
-- 邮件：[support@easydarwin.org](mailto:support@easydarwin.org) 
+- Email：[support@easydarwin.org](mailto:support@easydarwin.org) 
 
-- QQ交流群：**436297092**
-
-- EasyDarwin开源流媒体服务器是属于EasyDarwin开源团队的免费产品，大家免费使用，同时，EasyDarwin开源团队也能提供相应的收费技术咨询、技术服务和技术定制，谢谢大家支持！
+- The EasyDarwin open source streaming media server is a free product belonging to the EasyDarwin open source team. It is free for everyone to use. At the same time, the EasyDarwin open source team can also provide corresponding fee-based technical consultation, technical services and technical customization. Thank you for your support!
 
 
-## 获取更多信息
+##Get more information
 
-**EasyDarwin**开源项目：[www.EasyDarwin.org](http://www.easydarwin.org)
+**EasyDarwin** Website：[www.EasyDarwin.org](http://www.easydarwin.org)
 
 Copyright &copy; EasyDarwin Team 2012-2018
 
